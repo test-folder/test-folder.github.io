@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Animated Banner with Parallax</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+
+
+
+
+<header></header>
+
+<div class="parallax-section">
+	<ul id="clouds_scene">
+		  <li class="layer" data-depth="0.08">
+			<div class="clouds"></div>
+		  </li>		
+	</ul>
+	<ul id="scene" class="scene-1" data-limit-y="-1">
+		  <li class="layer" data-depth="0.6" >
+			<div class="trees"></div>
+		  </li>
+		  <li class="layer" data-depth="0.4" >
+			<div class="bushs"></div>
+		  </li>	  
+		  <li class="layer" data-depth="0" >
+			<div class="road"></div>
+		  </li>			  			  			  		
+	</ul>
+	<div class="car"></div>
+</div>
+
+<!-- <div class="search"></div> -->
+<div class="block-1"></div>
+<div class="content"></div>
+<footer></footer>
+
+
+
+</body>
+<!-- <script src="js/jquery-1.10.2.min.js"></script> -->
+<!-- <script src="js/jquery.parallax.min.js"></script> -->
+<script src="js/parallax.min.js"></script>
+
+<script type="text/javascript">
+
+
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene, {
+		invertX: false
+	});
+
+	var cloud_scene = document.getElementById('clouds_scene');
+	var cloud_parallax = new Parallax(clouds_scene, {
+		invertX: true
+	});
+</script>
+</html>

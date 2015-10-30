@@ -1,0 +1,114 @@
+
+
+* {margin:0; padding:0;}
+
+/* --------------- */
+header{
+	position: relative;
+	z-index: 1;
+
+	width: 100%;
+	height: 70px;
+	background: url(../images/header.png) no-repeat center;
+	background-size: cover; 
+}
+
+.parallax-section{
+	width: 100%;
+	height: 325px;
+	background-color: #dcf3fb;
+
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+}
+
+.scene-1{
+	position: absolute;
+}
+
+
+.clouds{
+	margin: -30px auto;
+
+	width: 1756px;
+	height: 132px;
+	background: url(../images/clouds.png) no-repeat center;
+	background-size: cover; 
+}
+
+
+.trees{
+	position: relative;
+	bottom: 30px;
+	margin: 0 auto;
+
+	width: 2332px;
+	height: 283px;
+	background: url(../images/trees.png) no-repeat center;
+	background-size: cover; 
+}
+
+.bushs{
+	position: relative;
+	bottom: -185px;
+	margin: 0 auto;
+
+	width: 2561px;
+	height: 59px;
+	background: url(../images/bushs.png) no-repeat center;
+	background-size: cover; 
+}
+
+
+.car{
+	position: relative;
+	bottom: 13.5px;
+
+	margin: 0 auto;
+
+	width: 716px;
+	height: 254px;
+
+	background: url(../images/car.png) no-repeat center;
+	background-size: cover; 	
+}
+
+
+
+.road{
+	position: relative;
+	bottom: -240px;
+	width: 2500px;
+	height: 15px;
+
+	background-color: #acacac;
+}
+
+/*------------*/
+
+.block-1{
+	margin: 15px auto 0;
+	width: 951px;
+	height: 199px;
+
+	background: url(../images/block-1.png) no-repeat center;
+	background-size: cover; 	
+}
+
+.content{
+	margin: 35px auto;
+	width: 100%;
+	height: 1146px;
+
+	background: url(../images/content.png) no-repeat center;
+	background-size: cover; 	
+}
+
+footer{
+	width: 100%;
+	height: 311px;
+
+	background: url(../images/footer.png) no-repeat center;
+	background-size: cover; 
+}
